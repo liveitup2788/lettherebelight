@@ -47,9 +47,9 @@ $(document).ready(function() {
 // Bluetooth 
 
 // These 128-Bit ID's correspond to the python-bluezero light switch example
-var SERVICE_UUID = '12341000-1234-1234-1234-123456789abc';
-var CHAR_RX_UUID = '12341002-1234-1234-1234-123456789abc';
-var CHAR_TX_UUID = '12341002-1234-1234-1234-123456789abc';
+var SERVICE_UUID = 'a22bd383-ebdd-49ac-b2e7-40eb55f5d0ab';
+var CHAR_RX_UUID = 'a22bd383-ebdd-49ac-b2e7-40eb55f5d0ab';
+var CHAR_TX_UUID = 'a22bd383-ebdd-49ac-b2e7-40eb55f5d0ab';
 
 var LIGHT_OFF = [0x00];
 var LIGHT_ON = [0x01];
